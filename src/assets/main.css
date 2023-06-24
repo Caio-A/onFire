@@ -1,0 +1,52 @@
+@import './base.css';
+@import './semantic.css';
+
+#app {
+  padding: 2rem;
+  font-weight: normal;
+}
+h1{
+  margin: 0;
+}
+p{
+  color: var(--vt-c-black);
+}
+#map{
+  position: absolute;
+  top: 80px;
+  right: 0;
+  left: 0;
+  bottom:0;
+  background: var(--vt-c-base-red-2)
+}
+#forms{
+  display: flex;
+  width: 100%;
+  min-width: 200px;
+  min-height: 100vh;
+  position:absolute; 
+  top: 0px;
+  z-index: 3  ; 
+  margin: auto;
+}
+
+#forms_report{
+  margin: auto;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#forms_map{
+  width: 100%;
+  min-height: 400px;
+}
+
+#return_map{
+  position: absolute;
+  border: 0px solid transparent;
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.692);
+}
